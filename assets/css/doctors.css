@@ -1,0 +1,569 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Work+Sans:wght@100;200;300;400;500;600;700&family=Yeseva+One&display=swap");
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
+}
+.gridlayout {
+  width: 95%;
+  margin: auto;
+  /* height: 100vh;
+    background-color: antiquewhite; */
+}
+
+/* fontstyle */
+
+.subdivtwo,
+.headercontent,
+.headercontent button,
+footer {
+  font-family: "Work Sans", sans-serif !important;
+}
+.herocontent,
+.copywritediv h6,
+.doctorssection h1 {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.subdiveone h1 {
+  font-family: "Yeseva One", cursive;
+}
+.headerlogo {
+  height: 38px;
+}
+header{
+  background-color: #1f2b6c;
+  position: sticky;
+  top: 0px;
+  z-index: 3;
+}
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px auto;
+}
+.subdiveone {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* justify-content: space-between; */
+}
+.subdiveone h1 {
+  color: #0fe3af;
+  font-size: 23px;
+  font-weight: 400;
+}
+
+.subdiveone span {
+  color: #0152a8;
+}
+.subdivtwo {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  font-weight: 500;
+}
+.topcall {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+.topclock {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+.toploc {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+.headercall,
+.headerclock,
+.headerloc {
+  height: 30px;
+  width: 30px;
+}
+.subdivtwo p {
+  font-size: 10px;
+  color: #0152a8;
+}
+.subdivtwo span {
+  color: #0fe3af;
+}
+.headercontent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 11px 0px;
+}
+.headerdiv {
+  height: 50px;
+  background-color: #1f2b6c;
+}
+.headerul {
+  display: flex;
+  gap: 80px;
+}
+.headerul li {
+  list-style-type: none;
+  font-size: 14px;
+}
+.doctorslink {
+  color: #0fe3af !important;
+  font-weight: 600 !important;
+}
+.headerul a {
+  text-decoration: none;
+  color: white;
+}
+.headerul a:hover {
+  color: #0fe3af !important;
+}
+.headercontent button {
+  border-radius: 15px;
+  padding: 4px 9px;
+  font-size: 10px;
+  font-weight: 600;
+  color: #1f2b6c;
+  background-color: #0fe3af;
+  border: 1px solid #0fe3af;
+}
+.headercontent button:hover,
+.herocontent button:hover {
+  background-color: #4bf4ca;
+  border: 1px solid #4bf4ca;
+}
+
+/* herocontent css */
+
+.herodiv {
+  background: url(../images/doctorsheroimg.png);
+  height: 487px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 120px;
+  margin-top: -50px;
+}
+.herocontent {
+  padding: 90px;
+}
+.herocontent h6 {
+  color: #1c1c1c;
+  font-size: 13px;
+  font-weight: 300;
+  padding: 31px 0px;
+}
+.herocontent p {
+  color: #1c1c1c;
+  width: 36%;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 37px 0px 38px 0px;
+}
+
+.herocontent h1 {
+  color: #143450;
+  width: 61%;
+  font-size: 42px;
+}
+
+.herocontent button {
+  font-size: 13px;
+  padding: 5px 8px;
+  border: 1px solid #0fe3af;
+  background-color: #0fe3af;
+  color: #1f2b6c;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+/* doctors content */
+.doctorssection h1 {
+  color: #1f2b6c;
+  text-align: center;
+  background-color: #0fe3af;
+  padding: 10px 0px;
+  font-size: 20px;
+  margin: 25px 0px;
+}
+.doctorsdiv {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  margin: 50px 0px;
+}
+.doctorsdiv input::placeholder {
+  color: #1f2b6c;
+}
+.doctorsdiv #searchId,
+.doctorsdiv #SpecialityId,
+.doctorsdiv #genderId,
+.doctorsdiv #langId {
+  width: 153px;
+  height: 30px;
+  position: relative;
+  padding: 0px 21px;
+  text-align: center;
+  font-size: 11px;
+  color: #1f2b6c;
+  font-family: "Work Sans", sans-serif;
+}
+.doctorsdiv img {
+  position: absolute;
+  margin: 0px 0px 0px -153px;
+  padding: 6px;
+  height: 17px;
+  width: 17px;
+}
+.doctorsdiv button {
+  width: 72px;
+  background-color: #1f2b6c;
+  border: 1px solid #1f2b6c;
+  color: white;
+  text-align: center;
+  border-radius: 3px;
+  font-family: "Work Sans", sans-serif;
+}
+.doctorsdiv button:hover{
+  box-shadow: 2px 2px #a5aac3;
+}
+.row1,.row2,.row3,.row4{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 80px 0px;
+}
+.doctorscards .doctor{
+  width: 305px;
+  height: 200px;
+  border: 1px solid #d1cfcf;
+  border-radius: 11px;
+}
+.doctorscards .doctor:hover{
+  box-shadow: 1px 1px #d1cfcf;
+}
+.doctorscards img{
+  height: 94px;
+  width: 94px;
+}
+.doctor .dtop{
+  display: flex;
+  margin: 5px 8px;
+  align-items: center;
+  padding: 4px;
+  gap: 10px;
+}
+.doctor .dbottom{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding: 10px 0px;
+}
+.doctorscards h3{
+  font-family: "Montserrat", sans-serif;
+  color:#29367D;
+  padding: 4px 10px;
+  font-size: 16px;
+}
+.doctorscards h6{
+  font-family: "Work Sans", sans-serif;
+  color: #606060;
+  padding: 0px 10px;
+}
+.doctorscards span{
+  font-family: "Work Sans", sans-serif;
+  color: #606060;
+  font-size: 8px;
+  padding: 0px 3px;
+}
+.doctorscards .right i{
+  color: #606060;
+  padding: 10px;
+  font-size: 11px;
+}
+.doctorscards .bottomleft i{
+  color: #606060;
+  padding: 0px 0px 3px 0px;
+  font-size: 11px;
+}
+.doctorscards .workingtime{
+  padding: 4px 0px;
+  font-size: 8px;
+  font-family: "Work Sans", sans-serif;
+  color: #606060;
+}
+.doctorscards button{
+  font-family: "Work Sans", sans-serif;
+  font-size: 9px;
+  padding: 5px 6px;
+  color: #1F2B6C;
+  background-color: #0FE3AF;
+  border: 1px solid #0FE3AF;
+  font-weight: 500;
+  border-radius: 3px;
+}
+.doctorscards hr{
+  border: 1px solid #ebe9e9;
+  margin: 0px auto;
+  width: 88%;
+}
+.doctorscards button:hover{
+  box-shadow: 1px 1px #d1cfcf;
+}
+/* footer css */
+.footerdiv {
+  background-color: #1f2b6c;
+}
+.footertopdiv {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+.footcall,
+.footclock,
+.footmail {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 200px;
+  height: 60px;
+  border: 1px solid #0fe3af;
+  border-radius: 5px 5px;
+}
+.footcallimg,
+.footclockimg,
+.footmailimg {
+  height: 30px;
+  padding: 0px 4px 0px 10px;
+}
+.footertopdiv p {
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+}
+.footertopdiv span {
+  font-weight: 200;
+  font-size: 10px;
+}
+.footercontent {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.footercontent ul {
+  list-style-type: none;
+  font-size: 13px;
+}
+.footercontent .aboutul a:hover{
+  color: #0FE3AF;
+}
+.footercontent li {
+  padding: 10px 0px;
+}
+.footercontent a {
+  text-decoration: none;
+  color: white;
+}
+.dept,
+.about,
+.liveloc,
+.subscribe h3 {
+  color: white;
+}
+.footercontent h3 {
+  padding: 20px 0px;
+}
+.footercontent {
+  padding: 20px;
+}
+.subclock,
+.subcall,
+.subloc {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.sub img {
+  height: 36px;
+  width: 33px;
+  padding: 19px 0px;
+}
+.sub p {
+  font-size: 10px;
+  color: #0fe3af;
+  font-weight: 300;
+}
+.sub span {
+  font-weight: 600;
+}
+.subscribe input {
+  padding: 8px;
+  border: 1px solid #0fe3af;
+  position: relative;
+}
+.subscribe .sendicon {
+  position: absolute;
+  margin: 6px 0px 0px -27px;
+}
+.dept {
+  width: 20%;
+}
+.liveloc img {
+  width: 200px;
+}
+.footercontent .about {
+  margin: 0px 0px 0px 0px;
+}
+.subscribe .sub {
+  margin: 25px 0px 0px 0px;
+}
+.copywritediv hr {
+  width: 75%;
+  margin: auto;
+  border: 1px solid #31f3c3;
+}
+.copywritediv h6 {
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 13px;
+  font-weight: 300;
+  color: #31f3c3;
+}
+
+/* mobile responsive */
+@media screen and (max-width: 300px) {
+}
+@media screen and (max-width: 500px) {
+  /* header/hero */
+  .subdiveone {
+    gap: 0px;
+  }
+  .headerlogo {
+    height: 21px;
+  }
+  .headercall,
+  .headerclock,
+  .headerloc {
+    height: 16px;
+    width: 14px;
+  }
+  .subdiveone h1 {
+    font-size: 13px;
+  }
+  .subdivtwo p {
+    font-size: 6px;
+  }
+  .headerul {
+    gap: 10px;
+  }
+  .headerul li {
+    font-size: 12px;
+  }
+  .herodiv {
+    height: 520px;
+    background-size: 100%;
+    padding-bottom: 120px;
+    margin-top: -233px;
+  }
+  .herocontent {
+    padding: 10px;
+  }
+  .herocontent h1 {
+    width: 100%;
+    font-size: 17px;
+  }
+  .herocontent h6 {
+    font-size: 8px;
+    margin-top: 233px;
+    padding: 0px;
+  }
+  .herocontent p {
+    width: 48%;
+    font-size: 6px;
+    padding: 17px 0px 13px 0px;
+  }
+  .herocontent button {
+    font-size: 7px;
+    padding: 3px 5px;
+  }
+  .doctorssection h1 {
+    font-size: 16px;
+  }
+  .doctorssection{
+    margin-top: -219px;
+  }
+  .doctorsdiv {
+    display: block;
+    text-align: center;
+    margin: 10px;
+  }
+  .searchdiv,.specialitydiv,.searchGender,.searchLang{
+    padding: 10px;
+  }
+  .doctorsdiv button {
+    padding: 7px
+  }
+  .row1,.row2,.row3,.row4{
+    display: block;
+  }
+  .doctorscards .doctor {
+    margin: 25px auto;
+  }
+  /* footer */
+  .footertopdiv {
+    display: block;
+    margin: 0px auto;
+    width: 50%;
+  }
+  .footercontent {
+    display: block;
+    text-align: center;
+  }
+  .dept{
+    width: 100%;
+  }
+  .subclock, .subcall, .subloc {
+    display: flex;
+    justify-content: center;
+  }
+
+}
+
+
+/* ipad responsive */
+@media screen and (min-width: 700px) and (max-width: 850px) {
+  .herocontent h1 {
+    width: 76%;
+    font-size: 26px;
+  }
+  .herocontent p {
+    width: 46%;
+    font-size: 9px;
+  }
+  .herodiv {
+    background-size: contain;
+    margin-top: -143px;
+  }
+  .herocontent h6 {
+    padding: 99px 0px 0px 0px;
+  }
+  .doctorssection{
+    margin-top: -82px;
+  }
+  .doctorsdiv {
+    gap: 0px;
+    justify-content: space-evenly;
+  }
+  .row1, .row2, .row3, .row4 {
+    margin: 36px auto;
+    gap: 10px;
+  }
+}
+

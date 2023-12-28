@@ -1,0 +1,772 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Work+Sans:wght@100;200;300;400;500;600;700&family=Yeseva+One&display=swap");
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
+}
+.gridlayout {
+  width: 95%;
+  margin: auto;
+  /* height: 100vh;
+    background-color: antiquewhite; */
+}
+
+/* fontstyle */
+
+.subdivtwo,
+.headercontent,
+.headercontent button,
+.bannerlines,
+.founderscontent p,
+.founderscontent h6,
+.appointmentleft p,
+footer {
+  font-family: "Work Sans", sans-serif !important;
+}
+.herocontent,
+.copywritediv h6,
+.bannerlines h1,
+.founderscontent h1,
+.appointmentsection h1 {
+  font-family: "Montserrat", sans-serif !important;
+}
+header {
+  background-color: #1f2b6c;
+  position: sticky;
+  top: 0px;
+  z-index: 3;
+}
+.subdiveone h1 {
+  font-family: "Yeseva One", cursive;
+}
+.headerlogo {
+  height: 38px;
+}
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px auto;
+}
+.subdiveone {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* justify-content: space-between; */
+}
+.subdiveone h1 {
+  color: #0fe3af;
+  font-size: 23px;
+  font-weight: 400;
+}
+
+.subdiveone span {
+  color: #0152a8;
+}
+.subdivtwo {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  font-weight: 500;
+}
+.topcall {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+.topclock {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+.toploc {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+.headercall,
+.headerclock,
+.headerloc {
+  height: 30px;
+  width: 30px;
+}
+.subdivtwo p {
+  font-size: 10px;
+  color: #0152a8;
+}
+.subdivtwo span {
+  color: #0fe3af;
+}
+.headercontent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 11px 0px;
+}
+.headerdiv {
+  height: 50px;
+  background-color: #1f2b6c;
+}
+.headerul {
+  display: flex;
+  gap: 80px;
+}
+.headerul li {
+  list-style-type: none;
+  font-size: 14px;
+}
+.homelink {
+  color: #0fe3af !important;
+  font-weight: 600 !important;
+}
+.headerul a {
+  text-decoration: none;
+  color: white;
+}
+.headerul a:hover {
+  color: #0fe3af !important;
+}
+.headercontent button {
+  border-radius: 15px;
+  padding: 4px 9px;
+  font-size: 10px;
+  font-weight: 600;
+  color: #1f2b6c;
+  background-color: #0fe3af;
+  border: 1px solid #0fe3af;
+}
+.headercontent button:hover,
+.herocontent button:hover {
+  background-color: #4bf4ca;
+  border: 1px solid #4bf4ca;
+}
+
+/* herocontent css */
+
+.herodiv {
+  background: url(../images/heroimg.png);
+  height: 487px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 120px;
+  margin-top: -50px;
+}
+.herocontent {
+  padding: 90px;
+}
+.herocontent h6 {
+  color: #1c1c1c;
+  font-size: 13px;
+  font-weight: 300;
+  padding: 31px 0px;
+}
+.herocontent p {
+  color: #1c1c1c;
+  width: 29%;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 37px 0px 38px 0px;
+}
+
+.herocontent h1 {
+  color: #143450;
+  width: 43%;
+  font-size: 42px;
+}
+
+.herocontent button {
+  font-size: 13px;
+  padding: 5px 8px;
+  border: 1px solid #0fe3af;
+  background-color: #0fe3af;
+  color: #1f2b6c;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+/* banner 1 */
+
+.banneronecontent {
+  display: flex;
+  justify-content: center;
+  gap: 33px;
+  margin: 0px auto;
+  padding: 100px 0px 0px;
+  /* margin: 70px 60px; */
+}
+.banneronecontent img {
+  height: 384px;
+  width: 377px;
+}
+.bannerlines {
+  width: 36%;
+}
+.banner1ul {
+  display: flex;
+  gap: 50px;
+  margin: 12px 15px;
+  width: fit-content;
+}
+
+.bannerlines p {
+  width: 70%;
+  font-size: 11px;
+  padding: 10px 0px;
+}
+.bannerlines li {
+  font-size: 13px;
+  list-style-type: none;
+  position: relative;
+  padding: 6px 6px;
+}
+.bannerlines ul li::before {
+  color: #0fe3af;
+  content: "\2022";
+  position: absolute;
+  font-size: 37px;
+  margin: -15px -22px;
+}
+
+.bannerlines h6 {
+  color: #0fe3af;
+  font-weight: 500;
+  width: 50%;
+}
+.bannerlines h1 {
+  color: #1f2b6c;
+  font-size: 33px;
+  font-weight: 500;
+  width: 70%;
+}
+
+.bannertwo {
+  background-color: #dcfbf4;
+  margin: 91px 0px;
+}
+
+.bannertwocontent {
+  display: flex;
+  justify-content: center;
+  padding: 35px 0px;
+  align-items: center;
+}
+
+.banner2right img {
+  height: 444px;
+  width: 400px;
+}
+.banner2left img {
+  height: 100px;
+}
+.banner2left {
+  width: 59%;
+}
+.banner2subone {
+  display: flex;
+  justify-content: center;
+  padding: 17px 0px 48px 0px;
+  margin-left: -109px;
+  gap: 24px;
+}
+
+.banner2subtwo {
+  display: flex;
+  justify-content: center;
+  margin-left: -109px;
+  gap: 24px;
+}
+.banner2subone .year,
+.banner2subone .doctors,
+.banner2subtwo .award,
+.banner2subtwo .spcl {
+  display: flex;
+  align-items: center;
+  width: 35%;
+  gap: 13px;
+}
+.banner2left h1,
+.banner2left p {
+  font-family: "Montserrat", sans-serif;
+  padding: 10px 0px;
+}
+.banner2subone p,
+.banner2subtwo p {
+  color: #067258;
+  font-weight: bold;
+  font-size: 46px;
+}
+.banner2subone span,
+.banner2subtwo span {
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+}
+.banner2line2 {
+  font-family: "Work Sans", sans-serif !important;
+  font-size: 14px;
+  width: 59%;
+}
+/* founders banner */
+.founderssection {
+  padding: 30px 0px;
+}
+.founderscontent {
+  display: flex;
+  justify-content: center;
+}
+.founderssection h1 {
+  color: #0fe3af;
+  text-align: center;
+  width: 22%;
+  margin: 0px auto;
+  padding: 0px 0px 45px;
+}
+.founderscontent img {
+  width: 242px;
+  height: 288px;
+}
+.f1content,
+.f2content,
+.f3content,
+.f4content {
+  width: 80%;
+  background-color: #0fe3af8a;
+  text-align: center;
+  height: 85px;
+  margin: -5px auto;
+}
+.f1content p,
+.f2content p,
+.f3content p,
+.f4content p {
+  padding: 18px 0px;
+  color: #1f2b6c;
+  font-size: 12px;
+}
+.f1content h6,
+.f2content h6,
+.f3content h6,
+.f4content h6 {
+  color: #1f2b6c;
+  font-size: 14px;
+}
+.f1position,
+.f2position,
+.f3position,
+.f4position {
+  width: 80%;
+  text-align: center;
+  margin: 0px auto;
+  background-color: #1f2b6c;
+  height: 20px;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 7px 0px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  color: #bfd2f8;
+}
+.appointmentsecbg {
+  background: url(../images/appointment_bg.png);
+  height: 400px;
+  margin: 70px 0px;
+}
+.appointmentsection h1 {
+  text-align: center;
+  padding: 40px 0px 0px;
+  color: #0fe3af;
+  font-size: 30px;
+}
+.appointmentdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.appointmentright input {
+  width: 161px;
+  height: 31px;
+  background-color: #1f2b6c;
+  color: white;
+  border: 2px solid #bfd2f8;
+  padding-left: 3px;
+}
+.appointmentright .dateClass,
+.appointmentright .timeClass {
+  color: #bfd2f8;
+}
+.form ::placeholder {
+  color: #bfd2f8;
+}
+.appointmentright textarea {
+  width: 333px;
+  height: 100px;
+  border: 2px solid #bfd2f8;
+  background-color: #1f2b6c;
+  padding: 3px 0px 0px 3px;
+}
+.appointmentright select {
+  height: 35px;
+  width: 168px;
+  border: 2px solid #bfd2f8;
+  background-color: #1f2b6c;
+  color: #bfd2f8;
+}
+.form {
+  background-color: #bfd2f8;
+}
+
+.appointmentright .dateClass,
+.appointmentright .timeClass {
+  color: #bfd2f8;
+}
+.appointmentright input {
+  width: 161px;
+  height: 31px;
+  background-color: #1f2b6c;
+  color: white;
+  border: 2px solid #bfd2f8;
+  padding-left: 3px;
+}
+.appointmentright button {
+  padding: 7px;
+  width: 336px;
+  margin-top: -2px;
+  margin: -4px 2px 0px 2px;
+  background-color: #0fe3af;
+  border: 2px solid #0fe3af;
+  color: #1f2b6c;
+  font-weight: 700;
+}
+.appointmentleft {
+  width: 37%;
+}
+.appointmentleft p {
+  width: 81%;
+  font-size: 23px;
+  font-weight: 400;
+}
+.appointmentright .form button:hover {
+  background-color: #4bf4ca;
+  border: 2px solid #4bf4ca;
+}
+
+/* footer css */
+.footerdiv {
+  background-color: #1f2b6c;
+}
+.footertopdiv {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+.footcall,
+.footclock,
+.footmail {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 200px;
+  height: 60px;
+  border: 1px solid #0fe3af;
+  border-radius: 5px 5px;
+}
+.footcallimg,
+.footclockimg,
+.footmailimg {
+  height: 30px;
+  padding: 0px 4px 0px 10px;
+}
+.footertopdiv p {
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+}
+.footertopdiv span {
+  font-weight: 200;
+  font-size: 10px;
+}
+.footercontent {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.footercontent ul {
+  list-style-type: none;
+  font-size: 13px;
+}
+.footercontent .aboutul a:hover {
+  color: #0fe3af;
+}
+.footercontent li {
+  padding: 10px 0px;
+}
+.footercontent a {
+  text-decoration: none;
+  color: white;
+}
+.dept,
+.about,
+.liveloc,
+.subscribe h3 {
+  color: white;
+}
+.footercontent h3 {
+  padding: 20px 0px;
+}
+.footercontent {
+  padding: 20px;
+}
+.subclock,
+.subcall,
+.subloc {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.sub img {
+  height: 36px;
+  width: 33px;
+  padding: 19px 0px;
+}
+.sub p {
+  font-size: 10px;
+  color: #0fe3af;
+  font-weight: 300;
+}
+.sub span {
+  font-weight: 600;
+}
+.subscribe input {
+  padding: 8px;
+  border: 1px solid #0fe3af;
+  position: relative;
+}
+.subscribe .sendicon {
+  position: absolute;
+  margin: 6px 0px 0px -27px;
+}
+.dept {
+  width: 20%;
+}
+.liveloc img {
+  width: 200px;
+}
+.footercontent .about {
+  margin: 0px 0px 0px 0px;
+}
+.subscribe .sub {
+  margin: 25px 0px 0px 0px;
+}
+.copywritediv hr {
+  width: 75%;
+  margin: auto;
+  border: 1px solid #31f3c3;
+}
+.copywritediv h6 {
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 13px;
+  font-weight: 300;
+  color: #31f3c3;
+}
+
+/* mobile responsive */
+@media screen and (max-width: 300px) {
+}
+@media screen and (max-width: 500px) {
+  /* header/hero */
+  .subdiveone {
+    gap: 0px;
+  }
+  .headerlogo {
+    height: 21px;
+  }
+  .headercall,
+  .headerclock,
+  .headerloc {
+    height: 16px;
+    width: 14px;
+  }
+  .subdiveone h1 {
+    font-size: 13px;
+  }
+  .subdivtwo p {
+    font-size: 6px;
+  }
+  .headerul {
+    gap: 10px;
+  }
+  .headerul li {
+    font-size: 12px;
+  }
+  .herodiv {
+    height: 520px;
+    background-size: 100%;
+    padding-bottom: 120px;
+    margin-top: -233px;
+  }
+  .herocontent {
+    padding: 10px;
+  }
+  .herocontent h1 {
+    width: 100%;
+    font-size: 24px;
+  }
+  .herocontent h6 {
+    font-size: 8px;
+    margin-top: 233px;
+    padding: 0px;
+  }
+  .herocontent p {
+    width: 48%;
+    font-size: 6px;
+    padding: 17px 0px 13px 0px;
+  }
+  .herocontent button {
+    font-size: 7px;
+    padding: 3px 5px;
+  }
+  .banneronecontent{
+    display: block;
+    margin-top: -214px;
+  }
+  .bannerlines {
+    width: 97%;
+  }
+  .bannertwocontent {
+    display: block;
+  }
+  .banner2left {
+    width: 100%;
+  }
+  .banner2left h1, .banner2left p {
+    width: 100%;
+  }
+  .banner2subone,.banner2subtwo {
+      display: block;
+      padding: 0px;
+      margin-left: 0PX;
+  }
+  .banner2subone .year, .banner2subone .doctors, .banner2subtwo .award, .banner2subtwo .spcl {
+    width: 100%;
+  }
+  .banner2right img {
+    width: 90%;
+    height: 350PX;
+  }
+  .founderssection h1 {
+    width: 100%;
+  }
+  .founderscontent {
+    display: block;
+  }
+  .founderscontent img {
+    width: 80%;
+    MARGIN: 0px 39px;
+  }
+  .appointmentdiv {
+    display: BLOCK;
+    padding: 10px;
+  }
+  .appointmentleft p {
+    font-size: 10px;
+  }
+  .appointmentleft{
+    width: 100%;
+    padding: 10px;
+  }
+  .form {
+    background-color:transparent;
+  }
+  .footertopdiv {
+    display: block;
+    margin: 0px auto;
+    width: 50%;
+  }
+  .footercontent {
+    display: block;
+    text-align: center;
+  }
+  .dept{
+    width: 100%;
+  }
+  .subclock, .subcall, .subloc {
+    display: flex;
+    justify-content: center;
+  }
+
+}
+
+
+/* ipad responsive */
+@media screen and (min-width: 700px) and (max-width: 850px) {
+  .herocontent h1 {
+    width: 81%;
+    font-size: 32px;
+  }
+  .herocontent p {
+    width: 54%;
+  }
+  .herodiv {
+    background-size: contain;
+    margin-top: -143px;
+  }
+  .herocontent h6 {
+    padding: 99px 0px 0px 0px;
+  }
+  .banneronecontent img {
+    height: 333px;
+    width: 310px;
+  }
+  .bannerlines h1 {
+    font-size: 20px;
+    width: 75%;
+  }
+  .bannerlines p {
+    width: 100%;
+    font-size: 9px;
+  }
+  .banneronecontent{
+    padding: 0px;
+  }
+  .banner2right img {
+    height: 413px;
+    width: 372px;
+  }
+  .banner2line2{
+    width: 86%;
+    font-size: 11px;
+  }
+  .banner2left img {
+    height: 80px;
+  }
+  .banner2subone,.banner2subtwo {
+    justify-content: flex-start;
+    margin-left: 0px;
+    gap: 15px
+  }
+  .banner2subone .year, .banner2subone .doctors, .banner2subtwo .award, .banner2subtwo .spcl {
+    width: 44%;
+  }
+  .banner2subone span, .banner2subtwo span {
+    font-size: 9px;
+  }
+  .banner2subone p, .banner2subtwo p {
+    font-size: 29px;
+  }
+  .founderscontent img {
+    width: 204px;
+    height: 234px;
+  }
+  .founderssection h1 {
+    width: 41%;
+  }
+}
+

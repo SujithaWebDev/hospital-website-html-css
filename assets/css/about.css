@@ -1,0 +1,622 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Work+Sans:wght@100;200;300;400;500;600;700&family=Yeseva+One&display=swap");
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
+}
+.gridlayout {
+  width: 95%;
+  margin: auto;
+  /* height: 100vh;
+    background-color: antiquewhite; */
+}
+
+/* fontstyle */
+
+.subdivtwo,
+.headercontent,
+.headercontent button,
+footer {
+  font-family: "Work Sans", sans-serif !important;
+}
+.herocontent,
+.copywritediv h6,
+.aboutsection h1 {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.subdiveone h1 {
+  font-family: "Yeseva One", cursive;
+}
+.headerlogo {
+  height: 38px;
+}
+header {
+  background-color: #1f2b6c;
+  position: sticky;
+  top: 0px;
+  z-index: 3;
+}
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px auto;
+}
+.subdiveone {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.subdiveone h1 {
+  color: #0fe3af;
+  font-size: 23px;
+  font-weight: 400;
+}
+
+.subdiveone span {
+  color: #0152a8;
+}
+.subdivtwo {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  font-weight: 500;
+}
+.topcall {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+.topclock {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+.toploc {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+.headercall,
+.headerclock,
+.headerloc {
+  height: 30px;
+  width: 30px;
+}
+.subdivtwo p {
+  font-size: 10px;
+  color: #0152a8;
+}
+.subdivtwo span {
+  color: #0fe3af;
+}
+.headercontent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 11px 0px;
+}
+.headerdiv {
+  height: 50px;
+  background-color: #1f2b6c;
+}
+.headerul {
+  display: flex;
+  gap: 80px;
+}
+.headerul li {
+  list-style-type: none;
+  font-size: 14px;
+}
+.aboutlink {
+  color: #0fe3af !important;
+  font-weight: 600 !important;
+}
+.headerul a {
+  text-decoration: none;
+  color: white;
+}
+.headerul a:hover {
+  color: #0fe3af !important;
+}
+.headercontent button {
+  border-radius: 15px;
+  padding: 4px 9px;
+  font-size: 10px;
+  font-weight: 600;
+  color: #1f2b6c;
+  background-color: #0fe3af;
+  border: 1px solid #0fe3af;
+}
+.headercontent button:hover,
+.herocontent button:hover {
+  background-color: #4bf4ca;
+  border: 1px solid #4bf4ca;
+}
+
+/* herocontent css */
+
+.herodiv {
+  background: url(../images/abtheroimg.png);
+  height: 487px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 120px;
+  margin-top: -50px;
+}
+.herocontent {
+  padding: 90px;
+}
+.herocontent h6 {
+  color: #1c1c1c;
+  font-size: 13px;
+  font-weight: 300;
+  padding: 31px 0px;
+}
+.herocontent p {
+  color: #1c1c1c;
+  width: 40%;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 37px 0px 38px 0px;
+}
+
+.herocontent h1 {
+  color: #143450;
+  width: 61%;
+  font-size: 42px;
+}
+
+.herocontent button {
+  font-size: 13px;
+  padding: 5px 8px;
+  border: 1px solid #0fe3af;
+  background-color: #0fe3af;
+  color: #1f2b6c;
+  border-radius: 3px;
+  font-weight: 600;
+}
+.aboutsection h1 {
+  color: #1f2b6c;
+  text-align: center;
+  background-color: #0fe3af;
+  padding: 10px 0px;
+  font-size: 20px;
+  margin: 25px 0px;
+}
+
+/* overview section */
+.aboutcontent {
+  margin: 50px 0px;
+}
+.aboutsectiondiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.aboutsectiondiv .overviewimgdiv img {
+  height: 350px;
+}
+.overviewdiv {
+  width: 600px;
+  height: 400px;
+  background-color: #055ab4;
+  box-shadow: 2px 2px #1f2b6c;
+}
+.overviewdiv h3 {
+  color: #ffffff;
+  font-family: "Work Sans", sans-serif;
+  padding: 13px 33px;
+}
+.overviewdiv p {
+  width: 80%;
+  font-size: 12px;
+  font-weight: 200;
+  color: #ffffff;
+  padding: 19px;
+  font-family: "Work Sans", sans-serif;
+}
+.overviewpoint {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+.overviewpoint i {
+  color: #0fe3af;
+}
+
+/* testimonial section */
+.testimonialcontent {
+  display: flex;
+  margin: 50px 0px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.testimonial1,
+.testimonial2 {
+  width: 30%;
+  height: 150px;
+  border: 1px solid #606060;
+  font-family: "Work Sans", sans-serif;
+}
+.testimonialtext {
+  width: 70%;
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+  margin: 19px auto;
+}
+.testimonialwriter {
+  padding: 16px;
+  margin: 23px 0px 0px 0px;
+  background-color: #1f2b6c;
+  color: #ffffff;
+  text-align: center;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  box-shadow: 2px 2px 4px 2px #606060;
+}
+.testimonialdiv h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #1f2b6c;
+  text-align: center;
+  padding: 22px 0px 27px 0px;
+  font-size: 30px;
+}
+.testimonialcontent i {
+  color: #0fe3af;
+  border: none;
+}
+.testimonialcontent i:hover {
+  color: #1f2b6c;
+}
+
+/* news section */
+
+.news1,
+.news2 {
+  width: 35%;
+  font-family: "Work Sans", sans-serif;
+  border: 1px solid #606060;
+  box-shadow: 2px 2px 2px 2px #606060;
+}
+.newsdiv h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #1f2b6c;
+  text-align: center;
+  padding: 30px 0px 40px 0px;
+  font-size: 30px;
+}
+.newsdiv {
+  margin: 100px 0px;
+}
+.newscontent hr {
+  width: 98%;
+  margin: 0px auto;
+}
+.news1 img,
+.news2 img {
+  width: 100%;
+}
+.newscontent i {
+  color: #067258;
+}
+.newscontent {
+  padding: 8px;
+}
+.newscontent p {
+  padding: 10px 5px;
+}
+.newscontent span {
+  padding: 10px;
+  color: #606060;
+}
+.newscontent h5 {
+  color: #1f2b6c;
+  padding: 5px 5px 15px 5px;
+}
+.newscontent h6 {
+  color: #0fe3af;
+  padding: 10px 5px;
+  font-weight: 500;
+}
+.newscards {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.viewmorelink {
+  text-align: center;
+  color: #1f2b6c;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  margin: 60px 0px;
+}
+.viewmorelink i {
+  color: #1f2b6c;
+}
+.viewmorelink a:hover,
+.viewmorelink i:hover {
+  color: #0fe3af;
+}
+/* footer css */
+.footerdiv {
+  background-color: #1f2b6c;
+}
+.footertopdiv {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+.footcall,
+.footclock,
+.footmail {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 200px;
+  height: 60px;
+  border: 1px solid #0fe3af;
+  border-radius: 5px 5px;
+}
+.footcallimg,
+.footclockimg,
+.footmailimg {
+  height: 30px;
+  padding: 0px 4px 0px 10px;
+}
+.footertopdiv p {
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+}
+.footertopdiv span {
+  font-weight: 200;
+  font-size: 10px;
+}
+.footercontent {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.footercontent ul {
+  list-style-type: none;
+  font-size: 13px;
+}
+.footercontent .aboutul a:hover {
+  color: #0fe3af;
+}
+.footercontent li {
+  padding: 10px 0px;
+}
+.footercontent a {
+  text-decoration: none;
+  color: white;
+}
+.dept,
+.about,
+.liveloc,
+.subscribe h3 {
+  color: white;
+}
+.footercontent h3 {
+  padding: 20px 0px;
+}
+.footercontent {
+  padding: 20px;
+}
+.subclock,
+.subcall,
+.subloc {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.sub img {
+  height: 36px;
+  width: 33px;
+  padding: 19px 0px;
+}
+.sub p {
+  font-size: 10px;
+  color: #0fe3af;
+  font-weight: 300;
+}
+.sub span {
+  font-weight: 600;
+}
+.subscribe input {
+  padding: 8px;
+  border: 1px solid #0fe3af;
+  position: relative;
+}
+.subscribe .sendicon {
+  position: absolute;
+  margin: 6px 0px 0px -27px;
+}
+.dept {
+  width: 20%;
+}
+.liveloc img {
+  width: 200px;
+}
+.footercontent .about {
+  margin: 0px 0px 0px 0px;
+}
+.subscribe .sub {
+  margin: 25px 0px 0px 0px;
+}
+.copywritediv hr {
+  width: 75%;
+  margin: auto;
+  border: 1px solid #31f3c3;
+}
+.copywritediv h6 {
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 13px;
+  font-weight: 300;
+  color: #31f3c3;
+}
+
+/* mobile responsive */
+@media screen and (max-width: 300px) {
+}
+@media screen and (max-width: 500px) {
+  /* header/hero */
+  .subdiveone {
+    gap: 0px;
+  }
+  .headerlogo {
+    height: 21px;
+  }
+  .headercall,
+  .headerclock,
+  .headerloc {
+    height: 16px;
+    width: 14px;
+  }
+  .subdiveone h1 {
+    font-size: 13px;
+  }
+  .subdivtwo p {
+    font-size: 6px;
+  }
+  .headerul {
+    gap: 10px;
+  }
+  .headerul li {
+    font-size: 12px;
+  }
+  .herodiv {
+    height: 520px;
+    background-size: 100%;
+    padding-bottom: 120px;
+    margin-top: -233px;
+  }
+  .herocontent {
+    padding: 10px;
+  }
+  .herocontent h1 {
+    width: 100%;
+    font-size: 24px;
+  }
+  .herocontent h6 {
+    font-size: 8px;
+    margin-top: 233px;
+    padding: 0px;
+  }
+  .herocontent p {
+    width: 48%;
+    font-size: 6px;
+    padding: 17px 0px 13px 0px;
+  }
+  .herocontent button {
+    font-size: 7px;
+    padding: 3px 5px;
+  }
+  .aboutsection{
+    margin-top: -219px;
+  }
+  .aboutsectiondiv{
+    display: block;
+  }
+
+  .overviewdiv {
+    width: 100%;
+    height: 500px;
+  }
+  .overviewimgdiv{
+    text-align: center;
+    margin: 12px;
+  }
+  .testimonialtext {
+    width: 100%;
+    font-size: 8px;
+    margin: 12px auto;
+  } 
+  .testimonial1, .testimonial2 {
+    width: 36%;
+    height: 90px;
+  }
+  .testimonialcontent {
+    margin: 40px 0px;
+    justify-content: space-between;
+  }
+  .testimonialwriter {
+    padding: 8px 15px;
+    margin: 27px 0px 0px 0px;
+  }
+  .newsdiv h3 {
+    padding: 0px 0px 40px 0px;
+    font-size: 22px;
+  }
+  .news1, .news2 {
+    width: 44%;
+  }
+  /* footer */
+  .footertopdiv {
+    display: block;
+    margin: 0px auto;
+    width: 50%;
+  }
+  .footercontent {
+    display: block;
+    text-align: center;
+  }
+  .dept {
+    width: 100%;
+  }
+  .subclock,
+  .subcall,
+  .subloc {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* ipad responsive */
+@media screen and (min-width: 700px) and (max-width: 850px) {
+  .herocontent h1 {
+    width: 76%;
+    font-size: 26px;
+  }
+  .herocontent p {
+    width: 46%;
+    font-size: 9px;
+  }
+  .herodiv {
+    background-size: contain;
+    margin-top: -143px;
+  }
+  .herocontent h6 {
+    padding: 99px 0px 0px 0px;
+  }
+  .aboutsection{
+    margin-top: -82px;
+  }
+  .overviewdiv {
+    width: 382px !important;
+    height: 400px !important;
+  }
+  .overviewdiv p {
+    width: 84%;
+    font-size: 10px;
+  }
+  .aboutsectiondiv .overviewimgdiv img {
+    height: 334px;
+  }
+  .testimonialtext {
+    width: 90%;
+    margin: 13px auto;
+  }
+  .testimonialwriter {
+    margin: -2px 0px 0px 0px;
+  }
+}
